@@ -1,0 +1,149 @@
+/*@font-face {
+    font-family: Geo;
+    src: url('fonts/georgia/georgia.ttf');
+}
+.Text {
+    color: white;
+	text-align: center;
+	position: absolute;
+	
+	top: 350px;
+	left: 34%;
+	
+}
+.Image {
+	position: relative;
+	background: #000;
+    justify-content: center;
+}
+.Image img {
+	width: 100%;
+	opacity: 0.3;
+}
+
+.Text>h2{
+    font-family:'Franklin Gothic Medium' ;
+    font-size: 72pt;
+    font:bold;
+}
+.Text>p{
+    margin-top: -50px ;
+    font-family: Georgia;
+    font-size: 32pt;
+    font-style:italic;
+}
+
+.headerTop{
+
+}*/
+
+
+
+
+*, *::before, *::after {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-nav {
+    padding: 31px 0px 21px 0px;
+    border-bottom: 1px solid #262728;
+    display: flex;
+    height: 90px;
+    justify-content: space-between;
+}
+
+.container {
+    height: 90px;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.container__line {
+    padding-left: 204px;
+    padding-right: 201px;
+    height: 90px;
+    width: 1600px;
+}
+
+.header {
+    width: 1600px;
+    background-size: cover;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url("images/background.gif");
+    height: 944px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+.logo__img {
+    min-height: 29px;
+    max-width: 133px;
+}
+
+.nav {
+    padding-top: 4px;
+}
+
+.nav__item {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Lato";
+    text-decoration: none;
+}
+
+.nav-list {
+    display: flex;
+    margin-left: 5px;
+    justify-content: space-between;
+    width: 632px;
+}
+
+.nav__item:hover {
+    text-decoration: underline;
+    text-underline-offset: 38px;
+}
+
+.hello-page {
+    height: 852px;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.hello-page-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 336px;
+    /*надо переделать*/
+    height: 162px;
+    width: 444px;
+}
+
+.hello-page__title {
+    text-align: center;
+    font-size: 72px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Myriad Pro";
+}
+
+.hello-page__subtitle {
+    padding-top: 3px;
+    padding-left: 1px;
+    text-align: center;
+}
+
+.hello-page__text:first-child {
+    padding-bottom: 10px;
+}
+
+.hello-page__text {
+    color: #ffffff;
+    font-size: 32px;
+    font-family: "Georgia";
+    font-style: italic;
+}
