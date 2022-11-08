@@ -77,8 +77,8 @@
 
 .hello-page {
    /* height: 852px;
-    width: 1600px;*/
-    margin: 0 auto;
+    width: 1600px;
+    margin: 0 auto;*/
 }
 
 .hello-page-container {
@@ -113,4 +113,100 @@
     font-size: 32px;
     font-family: "Georgia";
     font-style: italic;
+}
+
+
+
+
+
+
+
+.member {
+    height: 122px;
+    width: 1600px;
+    display: flex;
+}
+
+
+.logIn-btn {
+    /* width: 810px; */
+    width: 50.6%;
+    height: 120px;
+    background-color: #20414a;
+    z-index: -1;
+    position: relative;
+    z-index: 99;
+    /* transition: background-color 0.3s; */
+}
+
+#btn:hover {
+    /* background-color: #10AFF1; */
+    filter: invert(20%);
+    cursor: pointer;
+    /* transition: all; */
+}
+
+.Register-btn {
+    height: 120px;
+    background-color: #2fab6c;
+    width: 49.5%;
+    /* display: inline-block; */
+    /* vertical-align: top; */
+    position: relative;
+    /* overflow-x: hidden; */
+}
+
+.Register-btn:hover {
+    /* background-color: #10AFF1; */
+    filter: invert(10%);
+    cursor: pointer;
+    z-index: 99;
+}
+
+.Register-btn:before {
+    content: '';
+    display: block;
+    clear: both;
+    width: 0;
+    height: 0;
+    border-left: 29px solid transparent;
+    border-bottom: 120px solid #2fab6c;
+    position: absolute;
+    top: 0;
+    left: -29px;
+    z-index: 99;
+}
+
+
+
+.Register-btn-title {
+    /* width: 790px; */
+    overflow: hidden;
+    margin: 0 auto;
+    position: absolute;
+    font-size: 22px;
+    overflow: hidden;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Lato";
+    top: calc(50% - 14px);
+    left: 241px;
+    z-index: 999;
+    /*надо переделать*/
+}
+
+.login-btn-title {
+    z-index: 999;
+    margin: 0 auto;
+    /* width: 810px;  */
+    position: absolute;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Lato";
+    top: calc(50% - 14px);
+    right: 270px;
+    /* right: -470px; */
+    overflow: hidden;
+    /* right: -470px; надо переделать */
 }
