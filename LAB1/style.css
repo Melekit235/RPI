@@ -13,7 +13,7 @@
     background-repeat: no-repeat;
 }
 
-.header-nav {
+.headerNav {
     
     padding: 31px 0px 21px 0px;
     border-bottom: 1px solid #262728;
@@ -24,7 +24,7 @@
 }
 
 
-.logo__img {
+.logo_img {
     position: absolute;
     height: 30px;
     width: 135px;
@@ -36,7 +36,7 @@
     padding-top: 4px;
 }
 
-.nav__item {
+.navItem {
     font-size: 16px;
     color: white;
     font-weight: 500;
@@ -44,27 +44,26 @@
     text-decoration: none;
 }
 
-.nav-list {
+.navList {
     display: flex;
     margin-left: 10px;
     justify-content: space-between;
     width: 632px;
 }
 
-.nav__item:hover {
+.navItem:hover {
     text-decoration: underline;
     text-underline-offset: 38px;
 }
 
 
-
-.hello-page-container {
+.helloPpage_container {
     margin-left: auto;
     margin-right: auto;
     margin-top: 336px;
 }
 
-.hello-page_title {
+.helloPage_title {
     text-align: center;
     font-size: 50pt;
     color: white;
@@ -72,7 +71,7 @@
     font-family: "MyriadPro";
 }
 
-.hello-page_subtitle {
+.helloPage_subtitle {
     text-align: center;
     font-size: 20pt;
     color: white;
@@ -81,54 +80,40 @@
 }
 
 
-
-
-
-
-
 .member {
     height: 120px;
     width: 1600px;
     display: flex;
 }
 
-
-.logIn-btn {
-    /* width: 810px; */
+.btnLogIn {
     width: 50.6%;
     height: 120px;
     background-color: #20414a;
     z-index: -1;
     position: relative;
     z-index: 99;
-    /* transition: background-color 0.3s; */
 }
 
 #btn:hover {
-    /* background-color: #10AFF1; */
     filter: invert(20%);
     cursor: pointer;
-    /* transition: all; */
 }
 
-.Register-btn {
+.btnRegister {
     height: 120px;
     background-color: #2fab6c;
     width: 49.5%;
-    /* display: inline-block; */
-    /* vertical-align: top; */
     position: relative;
-    /* overflow-x: hidden; */
 }
 
-.Register-btn:hover {
-    /* background-color: #10AFF1; */
+.btnRegister:hover {
     filter: invert(10%);
     cursor: pointer;
     z-index: 99;
 }
 
-.Register-btn:before {
+.btnRegister:before {
     content: '';
     display: block;
     clear: both;
@@ -142,10 +127,7 @@
     z-index: 99;
 }
 
-
-
-.Register-btn-title {
-    /* width: 790px; */
+.btnRegister_title {
     overflow: hidden;
     margin: 0 auto;
     position: absolute;
@@ -157,13 +139,11 @@
     top: calc(50% - 14px);
     left: 241px;
     z-index: 999;
-    /*надо переделать*/
 }
 
-.login-btn-title {
+.btnLogin_title {
     z-index: 999;
     margin: 0 auto;
-    /* width: 810px;  */
     position: absolute;
     font-size: 22px;
     color: #ffffff;
@@ -171,7 +151,5 @@
     font-family: "Lato";
     top: calc(50% - 14px);
     right: 270px;
-    /* right: -470px; */
     overflow: hidden;
-    /* right: -470px; надо переделать */
 }
