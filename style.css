@@ -8,6 +8,9 @@
 .header {
     width: 1600px;
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: 0;
     left: 0;
     right: 0;
@@ -26,12 +29,12 @@
 
 
 .headerNav {
-    padding: 31px 0px 21px 0px;
     border-bottom: 1px solid #262728;
     display: flex;
+    align-items: center;
     width: 1200px;
     height: 90px;
-    justify-content: space-between;
+    
 }
 
 
@@ -42,9 +45,7 @@
 }
 
 .nav {
-    margin-right: 0;
     width: 637px;
-    padding-top: 4px;
 }
 
 .navItem {
@@ -57,7 +58,8 @@
 
 .navList {
     display: flex;
-    margin-left: 10px;
+    margin-left: 315px;
+    align-items: flex-end;
     justify-content: space-between;
     width: 632px;
 }
@@ -67,14 +69,6 @@
     text-underline-offset: 38px;
 }
 
-
-/*.helloPpage_container {
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 336px;
-}*/
 
 .helloPage_title {
     text-align: center;
@@ -130,8 +124,6 @@
     content: '';
     display: block;
     clear: both;
-    /*width: 0;
-    height: 0;*/
     border-left: 29px solid transparent;
     border-bottom: 120px solid #2fab6c;
     position: absolute;
