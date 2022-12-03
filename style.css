@@ -5,17 +5,27 @@
     box-sizing: border-box;
 }
 
-
 .header {
     width: 1600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.intro {
+    width: 1600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-size: cover;
     background-image: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.9)),url("images/background.gif");
     height: 944px;
     background-repeat: no-repeat;
 }
 
+
 .headerNav {
-    
     padding: 31px 0px 21px 0px;
     border-bottom: 1px solid #262728;
     display: flex;
@@ -58,13 +68,13 @@
 }
 
 
-.helloPpage_container {
-    /*display: flex;
+/*.helloPpage_container {
+    display: flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
-    /*margin-top: 336px;*/
-}
+    margin-top: 336px;
+}*/
 
 .helloPage_title {
     text-align: center;
@@ -145,7 +155,6 @@
 }
 
 .btnLogin_title {
-
     margin: 0 auto;
     position: absolute;
     font-size: 22px;
@@ -158,6 +167,7 @@
 }
 
 .domain {
+    text-align: center;
     margin-top: 90px;
 }
 
@@ -404,8 +414,6 @@ select {
 .packages {
     width: 1600px;
     height: 665px;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 91px;
 }
 
@@ -588,8 +596,6 @@ select {
     width: 100%;
     height: 295px;
     margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .about__us__panel {
@@ -709,18 +715,19 @@ select {
 }
 
 .quotes {
-    width: 100%;
+    width: 1600px;
     height: 190px;
     right: 0;
     left: 0;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    justify-content: center;
+
     margin-top: 110px;
 }
 
 .slider__panel {
     top: 0px;
-    width: 1601px;
+    width: 1600px;
     height: 190px;
     background-color: black;
 }
@@ -886,23 +893,25 @@ label {
 .features {
     width: 1600px;
     height: 342px;
+    display: flex;
+    justify-content: center;
 }
 
 .feature-blocks {
+
     display: flex;
-    right: 0px;
-    align-items: center;
-    padding: 98px 0px 85px 0px;
+
+    
+
     width: calc(1600px - 340px);
 }
 
 .feature-block {
     width: 700px;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-self: center;
-    display: flex;
 }
 
 .icon-flash {
